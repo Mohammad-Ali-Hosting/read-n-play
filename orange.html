@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read & Play</title>
+    <link rel="stylesheet" href="/know-alphabets.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="scontainer">
+        <div class="page3">
+            <audio id="myAudio">
+                <source src="/Sound/orange.mp3" type="audio/ogg">
+                <source src="/Sound/orange.mp3" type="audio/mpeg">
+            </audio>
+            <div class="a"><button class="btn">O o <i  onclick="play();" class="fa fa-volume-up"
+                        style="font-size:28px;color:white;float: right;margin-top: 8px;margin-right: 10px;"></i></button>
+            </div>
+            <div class="img13"><img src="/Img/orange.png" alt=""></div>
+            <div class="apple1">ORANGE</div>
+            <div class="div"><span class="pre"><a href="/nose.html">Back</a></span><span class="next"><a
+                        href="pen.html">Next</a></span></div>
+        </div>
+    </div>
+    </div>
+    <script>
+        var x = document.getElementById("myAudio");
+
+        function play() {
+            x.play();
+        } 
+    </script>
+</body>
+
+</html>

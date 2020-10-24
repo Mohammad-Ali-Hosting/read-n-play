@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read & Play</title>
+    <link rel="stylesheet" href="/know-alphabets.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="scontainer">
+        <div class="page3">
+            <audio id="myAudio">
+                <source src="/Sound/doll.mp3" type="audio/ogg">
+                <source src="/Sound/doll.mp3" type="audio/mpeg">
+            </audio>
+            <div class="a"><button class="btn">D d <i onclick="play();" class="fa fa-volume-up"
+                        style="font-size:28px;color:white;float: right;margin-top: 8px;margin-right: 10px;"></i></button>
+            </div>
+            <div class="img3"><img src="/Img/Doll.png" alt=""></div>
+            <div class="apple1">DOLL</div>
+            <div class="div"><span class="pre"><a href="/cat.html">Back</a></span><span class="next"><a
+                        href="/elephant.html">Next</a></span></div>
+        </div>
+    </div>
+    </div>
+    <script>
+        var x = document.getElementById("myAudio");
+
+        function play() {
+            x.play();
+        } 
+    </script>
+</body>
+
+</html>
